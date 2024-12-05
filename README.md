@@ -12,7 +12,7 @@ Hit the star⭐️ button in case you like it.
 3. Paste below key-value's into `cpp.json`
 
 ```json
-    "Fast IO and Utility Functions Template": {
+    "Codeforces cp template": {
         "prefix": "cft",
         "body": [
             "#include <bits/stdc++.h>",
@@ -29,6 +29,23 @@ Hit the star⭐️ button in case you like it.
             "typedef priority_queue<int, vi, less<int>> maxHeap;",
             "typedef priority_queue<int, vi, greater<int>> minHeap;",
             "",
+            "$0",
+            "",
+            "void solve() {",
+            "    ",
+            "}",
+            "",
+            "int main() {",
+            "    FAST_IO;",
+            "    int t; cin >> t;",
+            "    while (t--) solve();",
+            "}"
+        ],
+        "description": "CP template for codeforces ace."
+    },
+    "Modular operation utility functions": {
+        "prefix": "modops",
+        "body": [
             "const int MOD = 1e9 + 7;",
             "",
             "inline int _mul(int a, int b) {",
@@ -63,21 +80,9 @@ Hit the star⭐️ button in case you like it.
             "",
             "inline int _div(int a, int b) {",
             "    return _mul(a, _inv(b));",
-            "}",
-            "",
-            "$0",
-            "",
-            "void solve() {",
-            "    ",
-            "}",
-            "",
-            "int main() {",
-            "    FAST_IO;",
-            "    int t; cin >> t;",
-            "    while (t--) solve();",
             "}"
         ],
-        "description": "Fast IO template with utility functions for modular arithmetic and fast exponentiation."
+        "description": "Modular operation utility functions."
     }
 ```
 
