@@ -19,6 +19,8 @@ Hit the star⭐️ button in case you like it.
             "using namespace std;",
             "",
             "#define FAST_IO ios_base::sync_with_stdio(0), cin.tie(0);",
+            "#define bitcount __builtin_popcount",
+            "#define countZeros __builtin_ctz",
             "typedef long long ll;",
             "typedef pair<int,int> ii;",
             "typedef deque<int> di;",
@@ -99,6 +101,8 @@ Hit the star⭐️ button in case you like it.
 using namespace std;
 
 #define FAST_IO ios_base::sync_with_stdio(0), cin.tie(0);
+#define bitcount __builtin_popcount
+#define countZeros __builtin_ctz
 typedef long long ll;
 typedef pair<int,int> ii;
 typedef deque<int> di;
