@@ -31,6 +31,8 @@ Hit the star⭐️ button in case you like it.
             "typedef priority_queue<int, vi, less<int>> maxHeap;",
             "typedef priority_queue<int, vi, greater<int>> minHeap;",
             "",
+            "const int INF= 987654321;",
+            "",
             "$0",
             "",
             "void solve() {",
@@ -113,41 +115,9 @@ typedef vector<ii> vii;
 typedef priority_queue<int, vi, less<int>> maxHeap;
 typedef priority_queue<int, vi, greater<int>> minHeap;
 
-const int MOD = 1e9 + 7;
+const int INF= 987654321;
 
-inline int _mul(int a, int b) {
-    ll ret = a * 1ll * b;
-    ret %= MOD;
-    return int(ret);
-}
 
-inline int _add(int a, int b) {
-    ll ret = a + b;
-    while (ret >= MOD) ret -= MOD;
-    while (ret < 0) ret += MOD;
-    return int(ret);
-}
-
-inline int _binPow(int x, int n) {
-    int ret = 1;
-    int d = x;
-    while (n) {
-        if (n & 1) {
-            ret = _mul(ret, d);
-        }
-        d = _mul(d, d);
-        n >>= 1;
-    }
-    return ret;
-}
-
-inline int _inv(int a) {
-    return _binPow(a, MOD - 2);
-}
-
-inline int _div(int a, int b) {
-    return _mul(a, _inv(b));
-}
 
 void solve() {
     

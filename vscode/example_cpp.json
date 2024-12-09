@@ -18,6 +18,8 @@
             "typedef priority_queue<int, vi, less<int>> maxHeap;",
             "typedef priority_queue<int, vi, greater<int>> minHeap;",
             "",
+            "const int INF= 987654321;",
+            "",
             "$0",
             "",
             "void solve() {",
