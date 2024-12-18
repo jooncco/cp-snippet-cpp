@@ -23,6 +23,8 @@ Hit the star⭐️ button in case you like it.
             "#define countZeros __builtin_ctz",
             "typedef long long ll;",
             "typedef pair<int,int> ii;",
+            "typedef list<int> li;",
+            "typedef list<ii> lii;",
             "typedef deque<int> di;",
             "typedef deque<ii> dii;",
             "typedef vector<int> vi;",
@@ -107,6 +109,8 @@ using namespace std;
 #define countZeros __builtin_ctz
 typedef long long ll;
 typedef pair<int,int> ii;
+typedef list<int> li;
+typedef list<ii> lii;
 typedef deque<int> di;
 typedef deque<ii> dii;
 typedef vector<int> vi;

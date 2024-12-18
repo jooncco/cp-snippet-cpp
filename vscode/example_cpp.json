@@ -10,6 +10,8 @@
             "#define countZeros __builtin_ctz",
             "typedef long long ll;",
             "typedef pair<int,int> ii;",
+            "typedef list<int> li;",
+            "typedef list<ii> lii;",
             "typedef deque<int> di;",
             "typedef deque<ii> dii;",
             "typedef vector<int> vi;",
