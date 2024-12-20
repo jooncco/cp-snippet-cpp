@@ -23,15 +23,8 @@ Hit the star⭐️ button in case you like it.
             "#define countZeros __builtin_ctz",
             "typedef long long ll;",
             "typedef pair<int,int> ii;",
-            "typedef list<int> li;",
-            "typedef list<ii> lii;",
-            "typedef deque<int> di;",
-            "typedef deque<ii> dii;",
-            "typedef vector<int> vi;",
-            "typedef vector<ll> vl;",
-            "typedef vector<ii> vii;",
-            "typedef priority_queue<int, vi, less<int>> maxHeap;",
-            "typedef priority_queue<int, vi, greater<int>> minHeap;",
+            "typedef priority_queue<int, vector<int>, less<int>> maxHeap;",
+            "typedef priority_queue<int, vector<int>, greater<int>> minHeap;",
             "",
             "const int INF= 987654321;",
             "",
@@ -109,15 +102,8 @@ using namespace std;
 #define countZeros __builtin_ctz
 typedef long long ll;
 typedef pair<int,int> ii;
-typedef list<int> li;
-typedef list<ii> lii;
-typedef deque<int> di;
-typedef deque<ii> dii;
-typedef vector<int> vi;
-typedef vector<ll> vl;
-typedef vector<ii> vii;
-typedef priority_queue<int, vi, less<int>> maxHeap;
-typedef priority_queue<int, vi, greater<int>> minHeap;
+typedef priority_queue<int, vector<int>, less<int>> maxHeap;
+typedef priority_queue<int, vector<int>, greater<int>> minHeap;
 
 const int INF= 987654321;
 
