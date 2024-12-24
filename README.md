@@ -13,7 +13,7 @@ Hit the star⭐️ button in case you like it.
 
 ```json
     "Codeforces cp template": {
-        "prefix": "cft",
+        "prefix": "weapon",
         "body": [
             "#include <bits/stdc++.h>",
             "using namespace std;",
