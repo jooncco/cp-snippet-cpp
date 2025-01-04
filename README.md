@@ -21,12 +21,20 @@ Hit the star⭐️ button in case you like it.
             "#define FAST_IO ios_base::sync_with_stdio(0), cin.tie(0);",
             "#define bitcount __builtin_popcount",
             "#define countZeros __builtin_ctz",
-            "typedef long long ll;",
-            "typedef pair<int,int> ii;",
-            "typedef priority_queue<int, vector<int>, less<int>> maxHeap;",
-            "typedef priority_queue<int, vector<int>, greater<int>> minHeap;",
+            "using ll= long long;",
+            "using ld= long double;",
+            "using pii= pair<int,int>;",
+            "using pll= pair<ll,ll>;",
+            "using vi= vector<int>;",
+            "using vll= vector<ll>;",
+            "using vpll= vector<pll>;",
+            "using vvll= vector<vll>;",
+            "using vvpll= vector<vpll>;",
+            "using maxHeap= priority_queue<int, vector<int>, less<int>>;",
+            "using minHeap= priority_queue<int, vector<int>, greater<int>>;",
             "",
-            "const int INF= 987654321;",
+            "const ll MOD = (ll)998244353;",
+            "const ll INF = (ll)2e18 + 7;",
             "",
             "$0",
             "",
@@ -85,13 +93,13 @@ Hit the star⭐️ button in case you like it.
     }
 ```
 
-4. Try to use snippet inside the editor, typing `cft`.
+4. Try to use snippet inside the editor, typing `weapon`.
 
 ## Template Preview
 
 ### Codeforces
 
-> prefix: "cft"
+> prefix: "weapon"
 
 ```cpp
 #include <bits/stdc++.h>
@@ -100,12 +108,20 @@ using namespace std;
 #define FAST_IO ios_base::sync_with_stdio(0), cin.tie(0);
 #define bitcount __builtin_popcount
 #define countZeros __builtin_ctz
-typedef long long ll;
-typedef pair<int,int> ii;
-typedef priority_queue<int, vector<int>, less<int>> maxHeap;
-typedef priority_queue<int, vector<int>, greater<int>> minHeap;
+using ll= long long;
+using ld= long double;
+using pii= pair<int,int>;
+using pll= pair<ll,ll>;
+using vi= vector<int>;
+using vll= vector<ll>;
+using vpll= vector<pll>;
+using vvll= vector<vll>;
+using vvpll= vector<vpll>;
+using maxHeap= priority_queue<int, vector<int>, less<int>>;
+using minHeap= priority_queue<int, vector<int>, greater<int>>;
 
-const int INF= 987654321;
+const ll MOD = (ll)998244353;
+const ll INF = (ll)2e18 + 7;
 
 
 
